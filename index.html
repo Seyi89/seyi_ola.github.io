@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> PiggyVest Sign Up Form</title>
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div> 
+            <img class = "logo" src="images/piggyvest-logo.0b78a8fa.svg" alt="Piggyvest logo">
+        </div>
+        
+        <div>
+          <form action="piggyvest.html" method="post">
+            
+            <h1 class = "mainheader"> Create a Secure Account</h1>
+            <p class = "rider">Welcome to the future of Savings & Investments</p>
+          
+            <div>
+            
+              <label for="name"> Full Name</label>
+              <input type="text" id="name" name="user_name" placeholder="Full Name" required>
+                
+              <label for="mail">Email Address</label>
+              <input type="email" id="mail" name="user_email"placeholder="Email Address" required>
+                
+              <label for="phone">Phone Number</label>
+              <input type="phone" id="phone" name="user_phone"placeholder="Phone Number" required>
+
+              <label for="password">Password</label>
+              <input type="password" id="password" name="user_password"placeholder="Password" required>
+                
+              <label for="Referrer">Referrer phone or promo code (optional)</label>
+              <input type="Referrer" id="Referrer" name="user_referrer"placeholder="Referrer Phone or Code">
+                
+              <label for="backlink">How did you hear about us (optional)</label>
+
+                <div>
+                  <select class ="select" id= "backlink" name="user_backlink" placeholder="Click To Select" >
+                  <option value="Click to Select">Click to Select</option>
+                  <option value="Facebook">Facebook</option>
+                  <option value="Twitter">Twitter</option>
+                  <option value="Instagram">Instagram</option>
+                  <option value="Friend/Family/Coworker Referral"> Friend/Family/Coworker Referral</option>
+                  <option value="Google Search">Google Search</option>
+                  <option value="Google Playstore">Google Playstore</option>
+                  <option value="Online Blog">Online Blog</option>
+                  </select>
+                </div>
+              
+          
+                    <button type="submit"><strong> CREATE ACCOUNT</strong></button>
+              
+            </div>
+          </form>
+        </div>
+            <a class="footerlink "href="/login">Already have an account? Log in</a>
+    </body>
+</html>
