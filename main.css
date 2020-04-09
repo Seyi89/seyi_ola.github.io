@@ -1,0 +1,176 @@
+body { /* Page body styling */
+    background: #062863;
+    font: 24px , 'Source Sans Pro', sans-serif;
+    background-image: url('images/deco-image1.png'), url('images/deco-image2.png'), url('images/deco-image3.png'), url('images/deco-image4.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left -1% top -15%, right -7.5% top -1%, left -5% bottom -10%, right -5% bottom -5%;
+    background-size: 15%, 15%, 15%, 15%;
+  }
+
+.logo { /* logo styling */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 50px 50px 50px; 
+    }
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+form { /* form styling */
+    max-width: 300px;
+    margin: 10px auto;
+    margin-bottom: 40px;
+    padding: 0px 40px 48px 40px; 
+    background: #ffffff;
+    border-top-left-radius: 12px;
+    border-top-right-radius:12px;
+    border-bottom-right-radius: 12px;
+  }
+
+.mainheader {
+    margin: 0 0 0 5px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #09589c;
+    font-size: 24px;
+    font-style: normal;
+    Padding: 40px 26px 0px 26px;
+    }
+
+.rider {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: gray;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0px 14px 38px 14px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+    }
+  
+body { /* form body styling */
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #4a5568;
+    font-size: 14px;
+    font-weight: 700;
+    }
+
+::placeholder {
+    color: #b3b3b3;
+    opacity: 1; /* Firefox */
+    }
+            
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #b3b3b3;
+    }
+            
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #b3b3b3;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="phone"],
+    input[type="email"],
+    input[type="backlink"],
+    input[type="Referrer"],
+    input[type="number"],
+    input[type="backlink"],
+
+              
+textarea { /* form text area styling */
+    border: none;
+    font-size: 14px;
+    margin: 0;
+    outline: 0;
+    padding: 16px;
+    border-radius: 4px;
+    background-color: #e8eeef;
+    color: black;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 25px;
+    width: 100%;
+    }
+
+select { /* referral selection styling */
+    border: none;
+    font-size: 14px;
+    margin: 0;
+    outline: 0.1;
+    outline-color: blue;
+    padding: 16px;
+    border-radius: 4px;
+    background-color: #e8eeef;
+    color: black;
+    margin-bottom: 25px;
+    width: 100%;
+    }
+
+
+button {  /* Create account button styling */
+    padding: 20px 40px 20px 40px;
+    color: #FFF;
+    background-color: #062B6F;
+    font-size: 14px;
+    text-align: center;
+    font-style: normal;
+    border-top-left-radius: 12px;
+    border-top-right-radius:12px;
+    border-bottom-right-radius: 12px;
+    width: 100%;
+    border-width: 0px 0px 0px;
+    }
+
+button:hover {
+    opacity: 0.90;  
+    }
+ 
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+@media screen and (min-width: 480px) {
+  
+  form {
+      max-width: 430px;
+      }
+
+  .footerlink{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    font-size: 14px;
+    display: block;
+    font-weight: 400;
+    }
+
+      
+  .footerlink:visited {
+    color:whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    }
+      
+  .footerlink:hover {
+    color: lightgray;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    }
+      
+  .footerlink:active {
+    color: lightblue;
+    background-color: transparent;
+      text-decoration: underline;
+      text-align: center;
+      } 
+  }
+ 
